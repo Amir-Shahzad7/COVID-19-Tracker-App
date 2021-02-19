@@ -68,7 +68,7 @@ function Charts({ data: { confirmed, recovered, deaths }, country }) {
 
     return (
         <div className="Charts">
-            <div className="LineBarChart">
+            <div>
                 {country ? BarChart : LineChart}
             </div>
         </div>
