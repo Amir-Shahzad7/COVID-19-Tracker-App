@@ -40,4 +40,4 @@ jobs:
         run: npm install --global surge
         
       - name: Deploy to Surge
-        run: surge ./build piaic.bootcamp2020.covid_19_tracker_app.surge.sh --token ${{secrets.Surge_Token}}
+        run: surge ./build piaic.bootcamp2020.covid19trackerapp.surge.sh --token ${{secrets.Surge_Token}}
